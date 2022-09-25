@@ -54,6 +54,37 @@ print("shift operators");
 int c=9;
 print(c>>1);//1001=0100(right most one digit lost)
 print(c<<1);//0000 1001=0001 001 =>0001 0010
+print("**********************");
 
+print("ternary operator");
+//syntax --> condition ? truestatement : false statement;
+var age=20;
+var result= age >=18?"welcome to vote":"not elegeble to vote";
+print(result);
+print("********************");
+print("mark of a studen");
+var mark1=40;
+var res=mark1<=40?"win":"lose";
+print(res);
+print("***************");
+print("largest of 2 numbers");
+var num1=25;
+var num2=36;
+var largest=(num1>num2)?"largest":"not large";
+print(largest);
+print("**********************");
+print("largest of 3 numbers");
+int v=4,w=7,x=9;
+var large2=(v>w)?v:w;(v>x)?v:x;(w>x)?w:x;
+print(large2);
+print("**************");
+print("result of a student");
+var mark2=50;
+var passmark1=mark2>=100?true:false;
+print(passmark1);
+print("*****************");
+print("largest among two numbers");
+var lar=(20<30)?true:false;
+print("largest is $lar");
 
 }
