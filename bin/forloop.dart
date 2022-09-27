@@ -59,7 +59,7 @@ for(int k=1;k<=10;k++){
 
   print("***************");
   //multiplication of a number
-  var mul=5;
+  var mul=6;
   for(int f=1;f<=15;f++){
   print("$mul*$f=${mul*f}");
   }
