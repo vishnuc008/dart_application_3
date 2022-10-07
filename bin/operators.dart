@@ -38,7 +38,7 @@ int mark=47;
 int passmark=90;
 print(mark==passmark && mark>passmark);
 print(mark==passmark || mark>passmark);
-print!(mark<passmark);
+print(mark<passmark);
 
 print("********************");
 print("bitwise operators");
