@@ -4,7 +4,7 @@ class example{
   String ? name;
   static String course="flutter";
   static void method(){
- print("$course is luminar" );   //
+ print("$course is at luminar" );   
   }
 
   }
