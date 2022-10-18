@@ -39,7 +39,7 @@ print("*********************");
 //multiplication table of 2
 int mul=2;
 for(int m=1;m<=10;m++){
-  print("$mul*$m= ${mul*m}");
+  print("$m*$mul= ${mul*m}");
   
 }
 }

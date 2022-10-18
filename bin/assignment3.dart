@@ -20,5 +20,5 @@ void main(List<String> args) {
   String housename=stdin.readLineSync()!;
   print("enter your phn no");
   int phoneno=int.parse(stdin.readLineSync()!);
-  meth1(name, age, email, housename, phoneno,pincode:679665,dob: "22/06/1999" );
+  meth1(name, age, email, housename, phoneno,pincode:679337,dob: "20/12/2003");
 }
